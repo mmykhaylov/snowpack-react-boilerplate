@@ -9,6 +9,7 @@ React Boilerplate made on [Snowpack](https://www.snowpack.dev), TypeScript and s
 - Husky formatting and listing pre-commit hook
 - [Servor](https://github.com/lukejacksonn/servor) local server for hosting the build
 - Normalize CSS reset
+- Yarn v2
 
 ## Setting up the project
 
