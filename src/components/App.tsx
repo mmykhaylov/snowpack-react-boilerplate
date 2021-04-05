@@ -1,20 +1,5 @@
 import React from 'react';
-import styled, { createGlobalStyle } from 'styled-components';
-import styledNormalize from '../styles/normalize';
-
-const GlobalStyle = createGlobalStyle`
-  ${styledNormalize}
-  body {
-    margin: 0;
-    line-height: 1;
-  }
-  html {
-    font-size: 14px;
-    @media (min-width: 1600px) {
-    font-size: 16px;
-  }
-}
-`;
+import styled from 'styled-components';
 
 const Container = styled.div`
   width: 100%;
@@ -23,7 +8,6 @@ const Container = styled.div`
 
 const App: React.FC = () => (
   <>
-    <GlobalStyle />
     <Container>
       <h1>Hello There</h1>
       <p>General Kenobi!</p>

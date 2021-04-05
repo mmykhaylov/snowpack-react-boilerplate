@@ -2339,6 +2339,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"normalize.css@npm:^8.0.1":
+  version: 8.0.1
+  resolution: "normalize.css@npm:8.0.1"
+  checksum: de6c137a14291c00fee60a1e9e9ab4b78f93d48dd7ab5baa2783dd62bf19b456403bf0585ad201bb84ed184348fd49b467ccfc707068bf342123d00d31801e98
+  languageName: node
+  linkType: hard
+
 "npm-run-path@npm:^4.0.1":
   version: 4.0.1
   resolution: "npm-run-path@npm:4.0.1"
@@ -2977,6 +2984,7 @@ resolve@^2.0.0-next.3:
     eslint-plugin-prettier: ^3.3.1
     eslint-plugin-react: ^7.23.1
     husky: ^6.0.0
+    normalize.css: ^8.0.1
     prettier: ^2.2.1
     react: ^17.0.2
     react-dom: ^17.0.2

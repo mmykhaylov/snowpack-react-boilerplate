@@ -50,6 +50,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-prettier", "virtual:199531f6b29759a57b42847e938821571d0156f39a1ada70adf3344d9034b2003e6954ba92a14b5c58d326754d3ed3e22722ab79c44fadbb990e3c33eaf3a112#npm:3.3.1"],
             ["eslint-plugin-react", "virtual:199531f6b29759a57b42847e938821571d0156f39a1ada70adf3344d9034b2003e6954ba92a14b5c58d326754d3ed3e22722ab79c44fadbb990e3c33eaf3a112#npm:7.23.1"],
             ["husky", "npm:6.0.0"],
+            ["normalize.css", "npm:8.0.1"],
             ["prettier", "npm:2.2.1"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:199531f6b29759a57b42847e938821571d0156f39a1ada70adf3344d9034b2003e6954ba92a14b5c58d326754d3ed3e22722ab79c44fadbb990e3c33eaf3a112#npm:17.0.2"],
@@ -2864,6 +2865,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["normalize.css", [
+        ["npm:8.0.1", {
+          "packageLocation": "./.yarn/cache/normalize.css-npm-8.0.1-6124fb39b6-de6c137a14.zip/node_modules/normalize.css/",
+          "packageDependencies": [
+            ["normalize.css", "npm:8.0.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["npm-run-path", [
         ["npm:4.0.1", {
           "packageLocation": "./.yarn/cache/npm-run-path-npm-4.0.1-7aebd8bab3-058fd06880.zip/node_modules/npm-run-path/",
@@ -3595,6 +3605,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-prettier", "virtual:199531f6b29759a57b42847e938821571d0156f39a1ada70adf3344d9034b2003e6954ba92a14b5c58d326754d3ed3e22722ab79c44fadbb990e3c33eaf3a112#npm:3.3.1"],
             ["eslint-plugin-react", "virtual:199531f6b29759a57b42847e938821571d0156f39a1ada70adf3344d9034b2003e6954ba92a14b5c58d326754d3ed3e22722ab79c44fadbb990e3c33eaf3a112#npm:7.23.1"],
             ["husky", "npm:6.0.0"],
+            ["normalize.css", "npm:8.0.1"],
             ["prettier", "npm:2.2.1"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:199531f6b29759a57b42847e938821571d0156f39a1ada70adf3344d9034b2003e6954ba92a14b5c58d326754d3ed3e22722ab79c44fadbb990e3c33eaf3a112#npm:17.0.2"],
