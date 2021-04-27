@@ -9,9 +9,11 @@ module.exports = {
     src: '/dist',
   },
   optimize: {
-    bundle: true,
     minify: true,
-    target: "es2020",
+    target: 'es2020',
+    treeshake: true,
+    splitting: true,
+    sourcemap: 'external',
   },
   plugins: ['@snowpack/plugin-react-refresh', '@snowpack/plugin-typescript'],
   packageOptions: {
